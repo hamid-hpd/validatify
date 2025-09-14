@@ -1,12 +1,8 @@
 {
     "name": "hpd/validatify",
     "type": "library",
-    "description": "A PHP input validation library.",
-    "keywords": [
-      "validation",
-      "validator",
-      "input validator"
-    ],
+    "description": "A simple and flexible PHP input validation library",
+    "keywords": ["validation", "validator", "input validation", "php", "form validation"],
     "homepage": "https://github.com/hamid-hpd/validatify",
     "authors": [
       {
@@ -14,7 +10,7 @@
         "email": "hpd.hamid@gmail.com"
       }
     ],
-    "license": "proprietary",
+    "license": "MIT",
   
     "require": {
       "php": "^8.0"

@@ -57,6 +57,8 @@ Then include the autoloader in your project:
 ```php
 require_once 'vendor/autoload.php';
 ```
+Note: You only need to include the autoloader once.
+If you are already using a framework like Laravel, Symfony, or Slim, you can skip this step because the framework loads the Composer autoloader for you.
 
 ## Usage
 
@@ -410,7 +412,7 @@ Your support allows me to continue maintaining and improving this project. Thank
 
 ## License
 
-This project is licensed under the [Proprietary License](./LICENSE).
+This project is licensed under the [MIT License](./LICENSE).
 
 ## Check Out My Other Projects
 
